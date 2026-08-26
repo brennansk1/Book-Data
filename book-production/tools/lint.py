@@ -32,6 +32,7 @@ T = {
     "named_people":     (2,    None, 3,    None),
     "first_person":     (3,    None, 5,    None),
     "confidence_mods":  (1,    None, 2,    None),
+    "conf_mods_in_tail_pct": (None, 100.0, None, 60.0),   # don't bank calibration at the close
     "emdash_per_kw":    (None, 7.0,  None, 4.0),
     "tricolons":        (None, 5,    None, 3),
     "not_x_but_y":      (None, 4,    None, 2),
@@ -198,8 +199,18 @@ def main():
     run("named_people", len(people), "{:.0f}")
 
     run("first_person", len(re.findall(r"\bI\b", body)), "{:.0f}")
-    run("confidence_mods",
-        sum(len(re.findall(p, body, re.I)) for p in CONFIDENCE_MODS), "{:.0f}")
+    conf_hits = sum(len(re.findall(p, body, re.I)) for p in CONFIDENCE_MODS)
+    run("confidence_mods", conf_hits, "{:.0f}")
+    # WHERE the modulations fall matters as much as how many. Six consecutive units
+    # closed on the same "I'm confident about X, less sure about Y" construction because
+    # the count could be satisfied entirely in the last paragraph. Measure the share of
+    # modulations landing in the final fifth of the text; a chapter that banks them all
+    # at the close is performing calibration rather than practising it.
+    tail_start = int(len(body) * 0.8)
+    tail = body[tail_start:]
+    tail_hits = sum(len(re.findall(p, tail, re.I)) for p in CONFIDENCE_MODS)
+    tail_share = (100.0 * tail_hits / conf_hits) if conf_hits else 0.0
+    run("conf_mods_in_tail_pct", tail_share)
     run("emdash_per_kw", body.count("—") / kw)
     run("tricolons", len(TRICOLON.findall(body)), "{:.0f}")
     run("not_x_but_y", len(NOT_X_BUT_Y.findall(body)), "{:.0f}")

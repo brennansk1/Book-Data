@@ -40,3 +40,25 @@ that way, and Part One's allowance is spent. Other chapters end on the image, th
 own position, or a flat declarative the chapter has earned.
 (c) The disclosure-preempting reflex ("I should flag this, because you'd ask anyway") is DL-4a's
 compliance-narration wearing a new coat: one per chapter, maximum.
+
+**DL-10 (2026-08-06, ch-04 voice curator) — A quality metric manufactured a template.** Six of six
+units close on the same construction: "I'm confident about X. I'm much less sure about Y." The cause
+is structural, not lazy drafting — STYLE_BIBLE requires >=2 confidence modulations per chapter, and
+the requirement could be satisfied entirely in the closing paragraph, so it was, every time. The
+metric produced the tell it was meant to prevent.
+
+Fix has two halves:
+(a) MECHANICAL — lint.py now reports `conf_mods_in_tail_pct`, the share of modulations landing in the
+final fifth (target <=60%). Retroactive measurement: prologue 100% (warn), ch-03 100% (warn),
+ch-10 66.7% (warn), ch-01 50% (ok), ch-02 33.3% (ok).
+(b) EDITORIAL — calibration belongs where the uncertainty actually lives in the argument, not banked
+at the close as a signature. No chapter's final paragraph may carry a confidence modulation unless
+the chapter's whole subject is uncertainty (ch-07).
+
+The three frozen warns are NOT being reopened for a soft metric mid-run; they go to the Part One
+detection panel with this note, where the same closing formula appearing in three of five frozen
+units is the panel's most likely single finding.
+
+**General lesson, worth carrying:** every hard requirement in STYLE_BIBLE is a candidate for this
+failure. A metric that can be satisfied in one place will be satisfied in that place. When a
+reviewer finds a repeated device, check first whether a rule is causing it.
