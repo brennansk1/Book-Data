@@ -101,3 +101,28 @@ Appended at each freeze from verified evidence packets. Endnote-compatible; alph
 - The Hill. Steve Bullock quote, "It really does become a race to the bottom." Feb. 17, 2020. No
   stable URL retained; see reviews/ch-01/verify.md item 33.
 - The Independent. "Who Took the Fish from the Goddamn Water?" https://theindependent.ca/commentary/seasplainer/who-took-the-fish-from-the-goddamn-water/
+
+## Chapter Three (freeze 2026-08-06)
+
+- Alexander, Paul. Cited by Ostrom (1990) as "Alexander 1977, 1982" for the Mawelle, Sri Lanka
+  fieldwork. Full bibliographic entry (likely *Sri Lankan Fishermen: Rural Capitalism and Peasant
+  Society*, Australian National University Press, 1982, based on subject matter and page numbers)
+  not independently verified this session; see reviews/ch-03/verify.md item 25 and
+  research/ch-03/evidence.md §8.
+- Berkes, Fikret. Cited by Ostrom (1990) as "Berkes 1986b" for the Bodrum and Bay of Izmir, Turkey
+  fieldwork. Full bibliographic entry not independently verified this session; see
+  research/ch-03/evidence.md §8.
+- Glick, Thomas F. *Irrigation and Society in Medieval Valencia.* Cambridge, MA: Harvard University
+  Press, 1970.
+- Levi, Margaret. Cited by Ostrom (1990) as "Levi 1988a, ch. 3" for the term "quasi-voluntary
+  compliance." Full bibliographic entry not independently verified this session; see
+  reviews/ch-03/verify.md item 27.
+- Ostrom, Elinor. *Governing the Commons: The Evolution of Institutions for Collective Action.*
+  Cambridge: Cambridge University Press, 1990.
+- Tribunal de las Aguas / Comunitat Valenciana tourism board / Smithsonian Magazine / UNESCO
+  Intangible Cultural Heritage. Current-practice and heritage-listing details (Thursday-noon
+  sitting at the Apostles' Door; the black smock/*blusa*; the ~960 CE civic tradition and 1960
+  millennial celebration; the 1321 charter's attribution to King Jaume II; the 2009 joint listing
+  with Murcia's Council of Wise Men, "Irrigators' Tribunals of the Spanish Mediterranean Coast,"
+  UNESCO Representative List RL/00171). No stable URL retained; not independently re-fetched this
+  session — see reviews/ch-03/verify.md (web-tool caveat) and research/ch-03/evidence.md §5.
