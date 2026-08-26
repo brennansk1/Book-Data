@@ -126,3 +126,35 @@ Appended at each freeze from verified evidence packets. Endnote-compatible; alph
   with Murcia's Council of Wise Men, "Irrigators' Tribunals of the Spanish Mediterranean Coast,"
   UNESCO Representative List RL/00171). No stable URL retained; not independently re-fetched this
   session — see reviews/ch-03/verify.md (web-tool caveat) and research/ch-03/evidence.md §5.
+
+## Chapter Four (freeze 2026-08-06)
+
+- Appiah, Kwame Anthony. *The Honor Code: How Moral Revolutions Happen.* New York: W. W. Norton,
+  2010.
+- Boehm, Christopher. "Egalitarian Behavior and Reverse Dominance Hierarchy." *Current
+  Anthropology* 34, no. 3 (June 1993): 227–254.
+- Davis, David Brion. Review of *The Honor Code*, by Kwame Anthony Appiah. *New York Review of
+  Books*. No stable URL/date retained this session; see reviews/ch-04/verify.md items 17 and 22.
+- Edwards, Jeremy, and Sheilagh Ogilvie. Critique of Greif's Maghribi-coalition reading, across
+  three published iterations: CESifo Working Paper No. 2254 (2008); Cambridge Working Papers in
+  Economics No. 0928 (2009); *Economic History Review* (2012, published version — full citation
+  not independently pulled this session). Accessed this session only via Greif's own
+  characterization of their claims, not their papers directly; see reviews/ch-04/verify.md item 29
+  and research/ch-04/evidence.md §4.
+- Gibb, Michael. Review of *The Honor Code*, by Kwame Anthony Appiah. *Philosophical Quarterly*.
+  No stable URL/date retained this session; see research/ch-04/evidence.md §2.
+- Greif, Avner. "Reputation and Coalitions in Medieval Trade: Evidence on the Maghribi Traders."
+  *Journal of Economic History* 49, no. 4 (1989): 857–882.
+- Greif, Avner. "Contract Enforceability and Economic Institutions in Early Trade: The Maghribi
+  Traders' Coalition." *American Economic Review* 83, no. 3 (1993): 525–548.
+- King's College London. Archives exhibition page, "Duel Day" feature (Wellington–Winchilsea
+  duel). No stable URL retained; see reviews/ch-04/verify.md item 1.
+- utterlyinteresting.com. Physician's contemporary account of the Wellington–Winchilsea duel
+  (fire-first ambiguity, Winchilsea's delope). No stable URL retained; see reviews/ch-04/verify.md
+  items 8–9.
+- Wikipedia. "Wellington–Winchilsea duel." Wellington's 1834 attendance at Winchilsea's wedding to
+  Emily Bagot is sourced to this article alone and not independently cross-checked this session;
+  see reviews/ch-04/verify.md item 11.
+- Woolley & Wallis (auction house). Account of the Wellington–Winchilsea duel drawing on its own
+  Finch-Hatton family manuscript holdings, including the written apology text. No stable URL
+  retained; see reviews/ch-04/verify.md items 1, 3, 9–10.
