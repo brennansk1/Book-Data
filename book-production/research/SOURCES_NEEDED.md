@@ -50,3 +50,18 @@ State* (Ch. 16); Ostrom (Ch. 3); Axelrod (Ch. 2); Singer, Parfit, Kant, Aristotl
 
 PDF or EPUB both work. Drop them in `Files/` with any filename — the Researcher greps
 the directory. `Files/` is gitignored, so nothing copyrighted is published.
+
+## Added since first pass (chapters 8, 9, 11 research)
+
+| Work | Chapter | Why |
+|---|---|---|
+| Tetlock, *Expert Political Judgment* (2005) | Ch. 8 | The forecasting finding is sourced via a peer-reviewed review, but the famous "dart-throwing chimp" line is a media gloss and stays out of the text until the exact passage is checked. |
+| Doris, *Lack of Character* (2002) | Ch. 11 | The situationist challenge is the chapter's featured objection. Needs the actual argument, not a summary — especially since the underlying social psychology has been through the replication crisis and the honest report cuts both ways. |
+| Annas, *Intelligent Virtue* (2011) | Ch. 11 | The skill analogy (learner → expert) is how the chapter answers Doris. Currently secondary. |
+| Leeson, *Rogue Trader* (1996) | Ch. 9 | The wrong-breaker's own voice is the most valuable material in the chapter, and memoir self-justification cannot be paraphrased safely. |
+| GMC hearing record / Wakefield 1997 memo | Ch. 9 | Currently a secondary news summary of testimony. The chapter will not print it unverified. |
+| Chesterton, *The Thing* (1929) | Ch. 8 | The fence passage was transcribed and sourced — **no longer blocking**, listed so it is not re-requested. |
+
+**Already covered by `Files/` — do not send:** Ostrom, Axelrod, Schelling, Parfit (*Reasons and Persons*),
+Singer (*Practical Ethics*), Aristotle (*Nicomachean Ethics*), Kant (*Groundwork*), Rawls, Sen, Scott,
+Haidt, Kahneman, Galef, Dawkins, Taleb, Sowell, Caplan, Bostrom, MacIntyre, Aquinas, Adams, Gilligan.
