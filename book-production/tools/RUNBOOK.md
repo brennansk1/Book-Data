@@ -50,3 +50,10 @@ synthesized a plausible-sounding mechanism and stated it as established fact (ch
 ch-04's duel-as-credit-system). If the merge wants an explanation the research does not supply, it
 must appear in the text as the author's own conjecture, explicitly flagged, and it may not be
 load-bearing. Verifiers: treat any uncited mechanism as a FAIL by default.
+
+## Briefing rule for researchers and verifiers (added 2026-08-06)
+
+The source library lives at `/Users/brennankelley/Desktop/Projects/Book-Data-main/Files/` — the
+PROJECT ROOT, one level above `book-production/`. Always give agents the ABSOLUTE path. A researcher
+briefed with a bare `Files/` concluded the library did not exist and silently substituted web
+sources. See `research/FILES_INDEX.md` for what is there and which PDFs actually extract.
