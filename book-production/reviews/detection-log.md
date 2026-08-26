@@ -22,3 +22,21 @@ IDIOLECT.md is enforced at Gate 2 instead of being rediscovered at Gate 3 every 
 Retroactive measurement of the frozen set: ch-01 = 5 (warn), ch-02 = 4, ch-03 = 4, prologue = 4,
 ch-10 = 1. Ch-01's excess is a soft warn on a frozen chapter — NOT reopened; flagged for the
 Part One detection panel to judge alongside the human read.
+
+**DL-8 (2026-08-06, ch-04 red team) — The anchor ARC, not just its staging.** DL-6 retired the transit
+confession (kitchen/carrel/cabin + prop). Ch-04 complied on staging and kept the arc exactly:
+fast judgment -> slower checking -> correction reported. That arc is IDIOLECT's named weakness, so it
+is SUPPOSED to recur as a trait — but it must stop being the same STORY every time. Required
+variation from here: at least half the remaining anchors must break the arc. Options: an admission
+with no correction (the writer still hasn't fixed it); a correction that came from someone else and
+stung; an admission of something the writer would do again; a cost paid with no lesson attached.
+An anchor whose last beat is "and then I understood" is now the exception, not the default.
+
+**DL-9 (2026-08-06, ch-04 red team) — Two verbatim fingerprints and an ending habit.**
+(a) "than the [argument/chapter] strictly needs" appears in ch-01, ch-03 and ch-04 — retire the phrase.
+(b) Ending on admitted uncertainty ("I don't know yet. I'm not sure anyone does.") is attested in
+ch-03, ch-04 and ch-10. It is honest, and it is now a habit: at most one chapter per Part may end
+that way, and Part One's allowance is spent. Other chapters end on the image, the case, the reader's
+own position, or a flat declarative the chapter has earned.
+(c) The disclosure-preempting reflex ("I should flag this, because you'd ask anyway") is DL-4a's
+compliance-narration wearing a new coat: one per chapter, maximum.
