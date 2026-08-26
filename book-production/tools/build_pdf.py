@@ -71,6 +71,12 @@ blockquote p { text-indent: 0; }
 .title-page .author { margin-top: 2.4rem; font-size: 1.1rem; }
 .disclosure { font-size: 0.85rem; color: #333; margin-top: 3.2in; text-indent: 0; }
 .draftmark { position: fixed; top: 3.5in; left: 0.5in; font-size: 3.2rem; color: rgba(200,30,30,0.13); transform: rotate(-30deg); }
+.toc { margin-top: 1.2rem; }
+.toc p { text-indent: 0; margin: 0 0 0.28rem 0; }
+.toc-part { font-weight: 600; margin-top: 1.1rem !important; margin-bottom: 0.5rem !important; font-size: 0.95rem; letter-spacing: 0.03em; }
+.toc-entry { padding-left: 1.1em; font-size: 0.95rem; }
+.toc-missing { color: #999; }
+.endnotes h2 { margin-top: 1.5rem; font-size: 0.95rem; }
 .endnotes p, .bibliography p { font-size: 0.88rem; text-indent: -1.2em; padding-left: 1.2em; margin-bottom: 0.35rem; }
 .anchor-draft { background: #fff6d6; }
 """
@@ -125,6 +131,27 @@ def main():
         'A methods appendix describes the process.</p></div>'
     )
 
+    # Edition / provenance page
+    parts.append(
+        '<div class="front"><p class="disclosure">First edition, work in progress. '
+        'Chapters marked DRAFT have not completed the production pipeline\u2019s review gates. '
+        'Every quotation and empirical claim in a finished chapter has been checked twice: once '
+        'by the researcher who supplied it and once, independently, against the original source. '
+        'Where the evidence would not support a claim, the claim was cut. Notes at the back carry '
+        'the sources.</p></div>'
+    )
+
+    # Contents
+    toc = ['<div class="front"><h1 class="chapter">Contents</h1><div class="toc">']
+    for unit, kind, part_heading, title in BOOK_ORDER:
+        path, _ = find_unit(unit, args.draft)
+        if part_heading:
+            toc.append(f'<p class="toc-part">{html.escape(part_heading)}</p>')
+        cls = "toc-entry" if path else "toc-entry toc-missing"
+        toc.append(f'<p class="{cls}">{html.escape(title)}</p>')
+    toc.append('</div></div>')
+    parts.append("".join(toc))
+
     for unit, kind, part_heading, title in BOOK_ORDER:
         path, is_draft = find_unit(unit, args.draft)
         if path is None:
@@ -141,10 +168,15 @@ def main():
     # Endnotes + bibliography
     notes_dir = ROOT / "notes"
     if notes_dir.exists():
-        note_frags = [pandoc_fragment(p) for p in sorted(notes_dir.glob("*.md"))]
-        if note_frags:
+        ordered = [notes_dir / f"{u}.md" for u, _, _, _ in BOOK_ORDER]
+        note_files = [f for f in ordered if f.exists()]
+        note_files += sorted(set(notes_dir.glob("*.md")) - set(note_files))
+        if note_files:
             parts.append('<h1 class="chapter endnotes">Notes</h1>')
-            parts.extend(f'<div class="endnotes">{f}</div>' for f in note_frags)
+            for f in note_files:
+                title = f.stem.replace("ch-", "Chapter ").replace("prologue", "Prologue").title()
+                frag = pandoc_fragment(f)
+                parts.append(f'<div class="endnotes"><h2>{html.escape(title)}</h2>{frag}</div>')
     bib = ROOT / "research" / "sources.bib.md"
     if bib.exists():
         parts.append('<h1 class="chapter bibliography">Sources</h1>')
