@@ -41,3 +41,12 @@ After the last unit of each Part: **Gate 6 proxy** — 5 fresh blind judge agent
 
 ## Escalation
 Three failures at the same gate → stop the unit, log in decisions.md, move on ONLY if a later unit doesn't depend on it; otherwise surface to Showrunner. Session/API limit deaths: every step writes to disk first; re-run the step, never the whole cycle.
+
+## Pass C hard rule (added after ch-04 Gate 3)
+
+**The merge may not introduce a causal mechanism that is not in the evidence packet.** Pass C's job
+is to fuse the case and the letter, not to explain the world. Twice now a merge agent has
+synthesized a plausible-sounding mechanism and stated it as established fact (ch-03's Nobel claim,
+ch-04's duel-as-credit-system). If the merge wants an explanation the research does not supply, it
+must appear in the text as the author's own conjecture, explicitly flagged, and it may not be
+load-bearing. Verifiers: treat any uncited mechanism as a FAIL by default.
