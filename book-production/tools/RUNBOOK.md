@@ -12,6 +12,14 @@ The orchestrator executes this cycle once per unit, strictly in book order after
 3. **Pass C — the merge.** FRESH context. Inputs: pass-a.md, pass-b.md, STYLE_BIBLE, VOICE, the brief, the two most recently frozen chapters (voice reference). Output: `manuscript/<unit>/draft-v1.md`. Case opens; letter's rhythm survives; "you" converted; looseness preserved; Pass D applied (delete the first paragraph; keep only if genuinely load-bearing, logged). Insert `<!-- ANCHOR-DRAFT -->` block of 200–400 w in first person at the load-bearing judgment point; add 2–4 `<!-- KEEP -->` marked imperfections.
 
 ## Gates
+
+**COMPRESSED CYCLE (adopted at ch-04, 2026-08-06).** The original cycle ran cold-read → repair →
+line-edit → Gate 3 → revision as five serial steps. From ch-04 onward the four readers (cold,
+referee, red team, voice curator) all run in PARALLEL against draft-v1, and their findings are
+resolved in ONE consolidated revision, followed by the line edit. This halves the serial depth per
+chapter without reducing coverage — the reviewers were never dependent on each other's output, only
+on the draft. Verification, rhythm review and freeze are unchanged.
+
 4. **Gate 2 — lint (orchestrator, Bash):** `python3 tools/lint.py manuscript/<unit>/draft-v1.md --frozen manuscript/frozen/*.md`. Hard fail → targeted fix agent with the lint report only; re-run until pass.
 5. **Gate 2.5 — burstiness worklist:** `python3 tools/burstiness.py manuscript/<unit>/draft-v1.md`. Advisory. Pass the 20-flattest-sentences worklist to the same fix agent for rewrites of the worst offenders (never optimise the score).
 6. **Cold review (24h proxy):** fresh-context agent reads draft-v1 knowing nothing of its production; flags register failures, self-echo, seams. Fixes applied → `draft-v2-pre.md`.
