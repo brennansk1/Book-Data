@@ -23,3 +23,38 @@ BINDING RESOLUTION for the revision — one of exactly two options, no third:
 Option (b) is the likely correct one and is not a defeat: a book that flags its own speculation as
 speculation is doing the thing it argues for. What is forbidden is leaving it as-is, reading as
 established economic history.
+
+**Gate 5 rhythm review (2026-08-06):** FIX resolved. The flatness fix from the Gate 3 revision landed
+for the NARRATIVE material (duel, genizah, forager bands all now carry physical detail and beat
+sentences) but had not reached the ANALYTICAL passages, which is the exact pocket the 0.527 burstiness
+score was pointing at. Three targeted fixes:
+- the conjecture paragraph stacked six hedge-moves in nine sentences and droned by the fourth. Broken
+  into four paragraphs, hedges cut to two, and the honest flag kept but stated once: "I'm leaving it
+  in because I think it's probably right and not because I can back it up. You should know which of
+  those two you're getting."
+- the Davis sentence split subject from verb by 38 words (an appositive pile-up) — rebuilt as two.
+- "None of the three ever read the other two" carried no tense marker a listener could recover —
+  now "had ever read."
+"second" appears 9x in three senses but all pronounce identically; no TTS risk, logged for the
+isolation-test batch anyway. Four bare-digit years handed to the audio script.
+
+**Gate 4 verification (2026-08-06):** 36 items — 26 PASS, 10 PASS-WITH-NOTE, **0 FAIL**. Two fixes applied:
+the apology gloss said the charge was withdrawn "without qualification" when the 1829 text is itself
+hedged (it withdraws the motives "the Duke states to have charged him with") — the chapter now says so
+and notes it was evidently close enough for both men; and "insurance alternatives" was dropped from the
+rivals list as the one named rival the Verifier could not independently source, leaving the three that
+check out. Notably the Verifier also RESOLVED the cold reader's Davis suspicion (his ridicule critique
+is genuinely about the duelling material, not the slave-trade chapter) and caught an error in the
+researcher's own packet — a Cardinal Newman detail not actually in Davis's review — which had never
+reached the manuscript.
+
+**Burstiness note, recorded honestly:** the score moved 0.527 → 0.508, i.e. slightly DOWN, while the
+rhythm reviewer's qualitative read says the narrative material now breathes and the analytical pockets
+were fixed in this pass. The de-droning shortened sentences, which mechanically reduces variance. Per
+VOICE §7 the metric is advisory and must never be optimised directly; the reader-facing judgment
+governs. Flagged for the Part One detection panel to adjudicate rather than chased.
+
+**FREEZE (2026-08-06, PROVISIONAL — orchestrator; Showrunner ratification pending):** manuscript/frozen/ch-04.md.
+Open Showrunner items: anchor ratification (the Dana concession — invented correspondent and invented
+lost argument), the authorial-conjecture passage (it is flagged as speculation in the text; the
+Showrunner should decide whether to keep, cut, or source it), freeze ratification.
