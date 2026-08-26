@@ -18,3 +18,10 @@
 - `tools/lint.py manuscript/ch-03/draft-v3.md --frozen manuscript/frozen/*.md`: 0 hard fails, 3 soft warnings (pct_long, para_mean, para_max — all within the pre-existing pattern from draft-v2's own 2 warnings). Word count ~4,700.
 
 **Orchestrator flag for Gate 4 (2026-08-06):** draft-v3 says "eight working parts in her own catalog" early and "two of her seven working principles" in the Mawelle scorecard passage — resolve against Ostrom's actual Table 5.2 (her failure-case scoring may use a reduced principle set; if so say it precisely, else fix the count).
+
+**Gate 5 rhythm review (2026-08-06):** FIX resolved. Two SEVERE items fixed in print text:
+(1) the stag-hunt passage re-taught the parable frozen ch-02 had already delivered (two exact 5-word collisions) — rewritten so ch-03 APPLIES the hunt to the canal instead ("I promised you the hunters last time and left them standing in an abstract wood; here they are in the huerta, holding gates"), which also strengthens the design-principles point: the principles change WHICH GAME is played on the ditch;
+(2) dead antecedent "the failed Turkish fisheries she also studied" — Alanya was introduced as a success and named-omitted; corrected to Bodrum and the Bay of Izmir by name. Also split the unparsable meta-sentence about the "no written records" formulation (the correction now lives in decisions.md where it belongs, not in the prose).
+REMAINING items are audio-script work, not print: ~14 bare-digit years to spoken form, the (1940, 1942, 1945) parenthetical to prose, Valencian proper-noun render-spellings. Handed to the audio-script pass.
+
+**FREEZE (2026-08-06, PROVISIONAL — orchestrator; Showrunner ratification pending):** manuscript/frozen/ch-03.md. Open Showrunner items: anchor ratification (invented flight/Ostrom-reading autobiography), Grace correspondent decision, freeze ratification.
