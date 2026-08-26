@@ -13,3 +13,12 @@ Patterns identified by red-team/detection passes that must feed back into VOICE/
 **DL-5 (2026-08-06, ch-02 red team) — Correspondent device template.** Profession + one quirky detail + one pushback quote is now a visible pattern (Priya, Marisol; Nate the outlier). Future correspondents must vary along at least two axes: relationship depth (family member, mentor, adversary), interaction mode (they write back; the letter reports an argument already lost; the correspondent is dead and the letter is unsendable), and what they contribute (a case the writer didn't have; a correction the writer accepts). No new correspondent may be introduced with profession+quirk in the same paragraph.
 
 **DL-6 (2026-08-06, ch-03 red team) — The transit-anchor confession template.** Four units running stage the costly admission the same way: a solitary writer in transit or at rest (midnight kitchen / library carrel / airplane seat / late hallway) + one physical prop + fast-judgment-then-slow-correction arc. Rule: this staging is retired for the rest of the book. Admissions may arrive: mid-conversation (someone present, contradicting); in the act of being wrong in real time; retrospective without any scene; or discovered in the writer's own old files/notes. Also: hyper-precision on unfalsifiable details (seat numbers) with vagueness on checkable ones is itself a tell — invert it (name the checkable, drop the ornamental).
+
+**DL-7 (2026-08-06, orchestrator) — The negation family is now machine-detectable.** Reviewers caught the
+"negation-and-correct" gesture in five consecutive chapters, each time wearing a syntax the plain
+`not X but Y` regex missed ("not X — it's Y", "X isn't Y. It's Z.", "wasn't being X"). `tools/lint.py`
+now counts the whole family as `negate_correct` (target ≤4, hard fail >8), so the budget in
+IDIOLECT.md is enforced at Gate 2 instead of being rediscovered at Gate 3 every chapter.
+Retroactive measurement of the frozen set: ch-01 = 5 (warn), ch-02 = 4, ch-03 = 4, prologue = 4,
+ch-10 = 1. Ch-01's excess is a soft warn on a frozen chapter — NOT reopened; flagged for the
+Part One detection panel to judge alongside the human read.

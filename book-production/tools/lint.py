@@ -35,6 +35,7 @@ T = {
     "emdash_per_kw":    (None, 7.0,  None, 4.0),
     "tricolons":        (None, 5,    None, 3),
     "not_x_but_y":      (None, 4,    None, 2),
+    "negate_correct":   (None, 8,    None, 4),   # IDIOLECT: one cluster (<=3) + slack
     "nominal_openers":  (None, 5,    None, 2),
     "passive_pct":      (None, 18.0, None, 12.0),
     # --- VOICE.md
@@ -94,6 +95,19 @@ NOMINAL_OPENER = re.compile(
 TRICOLON = re.compile(r"\b[\w'-]+(?:\s+[\w'-]+){0,3},\s+[\w'-]+(?:\s+[\w'-]+){0,3},\s+and\s+[\w'-]+")
 
 NOT_X_BUT_Y = re.compile(r"\bnot\s+(?:merely\s+|simply\s+|just\s+)?[^.,;]{3,60},?\s+but\s+", re.I)
+
+# The negation-and-correct family, in every guise the red team has caught it wearing.
+# Reviewers found this in five consecutive chapters under names the plain
+# "not X but Y" regex never matched; IDIOLECT.md rations it to one cluster.
+NEGATE_CORRECT = [
+    NOT_X_BUT_Y,
+    # "not X — it's Y" / "not X. It's Y." / "not X; it was Y"
+    re.compile(r"\bnot\s+[^.;—]{3,70}[—;.]\s*(?:it|he|she|they|that|this)\s+(?:'s|s|is|was|were|are)\b", re.I),
+    # "X isn't/wasn't [vice]. X is/was [structural reason]."
+    re.compile(r"\b(?:is|was|are|were)n'?t\s+[^.;—]{3,70}[.;—]\s*(?:it|he|she|they|that|this)\s+(?:is|was|were|are)\b", re.I),
+    # "wasn't being X" / "weren't being X" — the book's own signature form
+    re.compile(r"\b(?:is|was|are|were)n'?t\s+being\s+\w+", re.I),
+]
 
 # crude proper-noun-person detector: capitalised token not at sentence start,
 # excluding a stoplist of places/institutions/months.
@@ -189,6 +203,7 @@ def main():
     run("emdash_per_kw", body.count("—") / kw)
     run("tricolons", len(TRICOLON.findall(body)), "{:.0f}")
     run("not_x_but_y", len(NOT_X_BUT_Y.findall(body)), "{:.0f}")
+    run("negate_correct", sum(len(r.findall(body)) for r in NEGATE_CORRECT), "{:.0f}")
     run("nominal_openers", sum(1 for s in sents if NOMINAL_OPENER.match(s)), "{:.0f}")
     run("passive_pct", 100 * sum(1 for s in sents if PASSIVE.search(s)) / max(len(sents), 1))
 
