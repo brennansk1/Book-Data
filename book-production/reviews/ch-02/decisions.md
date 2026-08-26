@@ -1,0 +1,18 @@
+# Ch-2 Decisions
+
+**Gate 1 (2026-08-06, orchestrator as Showrunner proxy — see reviews/DEVIATIONS.md):**
+- Opening case: **Axelrod's first tournament** told as story (announcement, 14 named entrants + RANDOM, Rapoport's four-line winner), then the second (62 entries, everyone knew, Rapoport won again), then the ecological simulation. All page-cited to the project PDF.
+- Second case: **WWI live-and-let-live trench system** from Axelrod ch. 4 (artillery rituals, raids destroying truces, the Saxon apology) — the iteration argument, NOT sentiment.
+- Argument confirmed as briefed: cooperation requires the expectation of meeting again, not goodness — and the expectation can be engineered.
+- BANNED: the Christmas-truce football match (not in Axelrod, historically disputed). The four properties arrive in prose with Axelrod's exact wording page-cited (nice p.33, forgiving p.36, retaliatory p.44, clear pp.53–54; "shadow of the future" p.124).
+- Honesty requirements: TFT's noise-fragility acknowledged (Nowak & Sigmund generous variants — the fix reinforces "forgiving"); "costly signal" framed via Axelrod's own capability-demonstration material (p.80), Spence/Zahavi named only if the theory is invoked; trench quotes are Axelrod-quoting-Ashworth — Verifier must pull Ashworth 1980 before print (logged as verification obligation).
+- Must-not carried from brief: no reduction of love/friendship to strategy (Ch. 13's job); flag the gap ("the game theory explains why cooperation is STABLE, not what makes it RIGHT — that's Part Two's job") to build trust.
+
+# (appended)
+**Gate 3 (2026-08-06):** referee 4 fixes + red team 10 findings + curator 3 — all fixed or reasonably conceded (see revision report). Courthouse-collusion passage added (¶71, Marisol supplies "courtroom workgroup" — de-templating + Axis-2 shadow in one move). Orchestrator anchor edit, logged: removed the banned word "flattering" from the ANCHOR by cutting the self-labeling sentence entirely (DL-4b + DL-4a in one cut; the admission now ends colder). Lint 0 hard fails.
+
+**Gate 4 verification (2026-08-06):** 50 items — 46 PASS, 4 FAIL, all fixed: FRIEDMAN overclaim corrected to what Table 2 supports (last among the nice rules — anchor edit, logged); Ashworth corrected historian→sociologist; the "minority experience" quantifier REVERSED to Axelrod's actual "endemic... nearly every British division" with the honest sector/lull scoping kept; Saxon apology punctuation restored exact. Verifier independently re-derived the PDF page offset before trusting it.
+
+**Gate 5 rhythm review (2026-08-06):** FIX resolved — coffee-gone-cold collision eliminated (ch-02's instance replaced with the cold-library/zipped-jacket detail; the image now appears only in prologue + ch-10 closer, and IDIOLECT's ration governs future use); 64-word sentence two split; four-properties double-enumeration collapsed (prose keeps the connected-reasoning teach; the Axelrod quote trimmed to the clarity clause — under 25 words per STYLE_BIBLE §5); tournament numeric drumbeat varied ("nearly a quarter of a million separate choices"); ANCHOR-final mistensed "read" fixed ("got to those forty pages" — logged anchor edit); "defect" row added to homographs.tsv with the sentence-initial imperative flagged. Lint 0 hard fails.
+
+**FREEZE (2026-08-06, PROVISIONAL — orchestrator; Showrunner ratification pending):** manuscript/frozen/ch-02.md. Open Showrunner items: anchor ratification (the FRIEDMAN/friendship story is invented autobiography like the prologue's niece — decide keep/replace/reframe), Marisol correspondent decision, freeze ratification.

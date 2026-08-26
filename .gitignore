@@ -1,0 +1,21 @@
+# Source library — third-party copyrighted books, local research use only
+Files/
+
+# Third-party clone (MisoLabsAI/MisoTTS) — re-clone, do not vendor
+MisoTTS/
+
+# Generated audio (9GB of Kokoro renders from the retired v1 edition)
+archive/v1/Audiobook/
+book-production/audio/renders/
+book-production/audio/masters/
+
+# Generated build intermediates (book.pdf IS tracked; the HTML is not)
+book-production/build/*.html
+
+# OS / editor cruft
+.DS_Store
+**/.DS_Store
+.Rhistory
+__pycache__/
+*.pyc
+.venv/

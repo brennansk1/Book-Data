@@ -1,0 +1,8 @@
+# Ch-7 Decisions
+
+**Gate 1 (2026-08-06, orchestrator as Showrunner proxy — see reviews/DEVIATIONS.md):**
+- This is a SHOWRUNNER-VOICE chapter (brief: "must be genuinely the Showrunner's voice"). Per the DEVIATIONS proxy, the whole chapter drafts as ANCHOR-DRAFT-flagged material with the first-person opening built on a clearly-marked placeholder shape (the mind-change-about-an-argument shape recommended: it stays inside the book's own material). FRONT-OF-FILE flag required: Showrunner rewrite pass before publication.
+- Structure: the three degradation tiers in plain language (CANON §2.3), consciousness (Chalmers verbatim verified) → illusionism (Frankish verbatim verified, presented fairly) → what survives at each tier; free will kept light via P.F. Strawson's reactive-attitudes framing (paraphrase-level only — no quotation marks); moral blindness closes with Buck v. Bell (1927, Holmes verbatim available) + judicial torture + Moniz/1949 Nobel (no procedure counts without verification).
+- BINDING: the Strawson-vs-Frankish confrontation must NOT be overstated — "The Consciousness Deniers" targets Dennett et al. by name, not Frankish; frame as Strawson denouncing the position-type, with Frankish as its most careful current defender.
+- BINDING: not a hedging chapter — every "I don't know" is followed by "here's what follows anyway"; Tier 3's honest weakness (quasi-realism the least demonstrated tier; the Dreier creeping-minimalism objection) stated at POS-02's confidence, no lower and no higher.
+- Blackburn quotes: paraphrase-with-attribution only until a primary pass lands (Verifier obligation).

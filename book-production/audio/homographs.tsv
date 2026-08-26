@@ -1,0 +1,29 @@
+word	notes
+lead	verb "to guide" (LEED) vs metal (LED); manuscript mostly wants "guide" — reword to "guide" or "guides" where possible instead of "lead"
+read	present (REED) vs past tense (RED); ambiguous out of context — reword with an explicit tense marker ("has read," "will read") rather than bare "read"
+live	adjective "broadcast live" (LYVE) vs verb "to live" (LIV); check each instance, reword if the wrong reading is plausible
+wound	past tense of "wind" (WOWND) vs injury (WOOND); low frequency in this manuscript — verify by listening, reword if needed
+bow	bend at the waist (BOW rhymes with cow) vs weapon/ribbon (BOH); rare in this manuscript — verify by listening
+close	verb (CLOHZ) vs adjective "a close call" (CLOHS); reword ambiguous adjective uses ("a near call" instead of "a close call")
+present	noun/adjective (PREZ-ent) vs verb "to present" (pre-ZENT); check stress-shifted instances, reword verb uses if respelling sounds off
+object	noun (OB-ject) vs verb "to object" (ob-JECT); manuscript uses both senses ("treating persons as objects" vs "she objects that") — flag every instance per AUDIO_SPEC §9
+subject	noun (SUB-ject) vs verb "to subject" (sub-JECT); check both senses
+contract	noun (CON-tract) vs verb "to contract" (con-TRACT); low frequency — verify by listening
+refuse	verb "decline" (ri-FYOOZ) vs noun "garbage" (REF-yoos); manuscript only uses the verb sense — low risk but verify
+minute	unit of time (MIN-it) vs adjective "tiny" (my-NOOT); manuscript uses both — flag every instance
+tear	rip (TAIR) vs eye-water (TEER); check each instance, reword if ambiguous in isolation
+sow	plant seeds (SOH) vs female pig (SOW rhymes with cow); rare — verify by listening
+use	verb (YOOZ) vs noun (YOOS); mostly low-risk since model conditions on surrounding words, spot-check
+house	noun (HOWS) vs verb "to house" (HOWZ); manuscript mostly noun sense — verify verb instances
+abuse	noun (uh-BYOOS) vs verb (uh-BYOOZ); check both senses appear correctly stressed
+separate	adjective "separateness of persons" (SEP-rit) vs verb "to separate" (SEP-uh-rayt); appears constantly per AUDIO_SPEC §9 — flag every instance
+moderate	adjective "moderate confidence" (MOD-er-it) vs verb "to moderate" (MOD-uh-rayt); appears constantly per AUDIO_SPEC §9 — flag every instance
+deliberate	adjective "deliberate action" (di-LIB-er-it) vs verb "to deliberate" (di-LIB-uh-rayt); the deliberation-period language appears constantly — flag every instance
+invalid	adjective "not valid" (in-VAL-id) vs noun "a sick person" (IN-vuh-lid); manuscript only uses the "not valid" sense — low risk but verify
+resume	verb "to continue" (ri-ZOOM) vs noun "CV" (REZ-oo-may); manuscript only uses the verb sense — low risk but verify
+content	noun "subject matter" (CON-tent) vs adjective "satisfied" (con-TENT); check both senses, especially near virtue/flourishing discussion
+conduct	noun "behavior" (CON-duct) vs verb "to conduct" (con-DUCT); check both senses
+entrance	noun "doorway" (EN-trance) vs verb "to enchant" (en-TRANCE); manuscript likely only uses the doorway sense — verify
+desert	dry land (DEZ-ert) vs abandon (di-ZERT) vs "just deserts" (di-ZERTS); three-way ambiguity — flag every instance, reword "just deserts" if it renders wrong
+read	cold read (ch-10): noun sense, renders as "reed" — verify in isolation; reword to "a beat to read it cold" if wrong
+defect	Game-theory chapters: verb (dih-FECT) vs noun (DEE-fect). Ch-02 sentence-initial imperative "Defect and you win big" is highest risk — isolation-test; reword to "Turn on the other side and..." in audio script if render picks noun

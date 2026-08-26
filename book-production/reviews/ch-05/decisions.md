@@ -1,0 +1,10 @@
+# Ch-5 Decisions
+
+**Gate 1 (2026-08-06, orchestrator as Showrunner proxy — see reviews/DEVIATIONS.md):**
+- Opening case: **pain asymbolia** — the Schilder & Stengel patient ("Oh, pain, that hurts," laughing, offering more of her body) as the case that ISOLATES sensation-without-badness. **Fanny Burney's 1811 mastectomy letter** (verified: British Library autograph, exact wording confirmed) as the visceral counterweight — badness at full presence. The chapter's engine is the contrast.
+- Interlocutors per brief: Mackie (queerness, exact 1977 wording from packet), then the illusionist (→ Tier 2). Street engaged per CK-8 — her §9 pain-specific argument named and answered with the constitutive/no-tracking move, at MODERATE confidence, with both honest limits stated.
+- The asymbolia interpretive dispute (Grahek vs. Klein vs. 2023–25 papers) is stated AS a live dispute — the case shows the components can come apart; what that proves is argued, not assumed.
+- BLOCKING DEPENDENCY: follow-up research pass for Sinhababu (*Humean Nature*) + Kahane ("Pain, Dislike and Experience") before Pass B. Morphine dissociation unattributed until Verifier sources (Beecher candidate).
+- Audio note (brief): every abstract move needs a physical anchor within three sentences — Burney and the asymbolia clinic supply them; the drafter must alternate abstract/physical at that cadence.
+
+**Blocking dependency RESOLVED (2026-08-06):** Sinhababu located ("The Epistemic Argument for Hedonism," Springer 2024, two phrases verbatim); Kahane fully resolved at abstract level — and UPGRADED from background to potential ALLY: his actual thesis (pain's badness due to phenomenal quality, not dislike, surviving the asymbolia concession) is structurally adjacent to CANON §2.1's constitutive claim. Drafter may cite him as convergent support, at abstract-level confidence. Morphine dissociation correctly split into two sources: Beecher 1946 (wounded soldiers) and Barber 1959 (the "doesn't bother me" review) — cite directly, not via Dennett. Ch-5 Pass A/B may proceed when its pipeline slot arrives.
