@@ -1,59 +1,61 @@
-# Per-Chapter Production Runbook (Autonomous PDF Run)
+# Per-Chapter Runbook — LEAN CYCLE (adopted 2026-08-27)
 
-The orchestrator executes this cycle once per unit, strictly in book order after the register pair (Prologue, Ch-10). Each numbered step names the agent context (all fresh unless stated), its inputs, and its output file. No agent ever sees the whole manuscript.
+Supersedes the previous runbook. Same gates, same standard, roughly a third of the tokens.
 
-## Inputs prepared before the cycle
-- `research/<unit>/evidence.md` + `cases.md` (Researcher/Case Hunter — may be prepared one unit ahead, in parallel with the previous unit's gates)
-- Gate 1: orchestrator selects case + confirms the brief's one-sentence argument; logs pick + runner-up in `reviews/<unit>/decisions.md` (PROXY for Showrunner — see reviews/DEVIATIONS.md)
+## Why it changed
 
-## Drafting (three passes, three separate agent contexts)
-1. **Pass A — the case, cold.** Inputs: cases.md (chosen case only), evidence.md, VOICE §1.5/§1.1. Output: `manuscript/<unit>/pass-a.md` (400–700 w, reportage only, no argument, no "this illustrates"). HARD RULE (added after ch-01 Gate 4): sensory anchors in historical scenes must come from the record (footage, reporting, testimony in the packet) or be framed as general truths/the author's own present — NEVER invented atmospheric specifics (weather, background sounds, unrecorded objects) asserted as fact about a real event.
-2. **Pass B — the letter.** FRESH context. Inputs: the brief's argument sentence, CANON sections for the unit, evidence.md, seed corpus (author/ if present, models/, anti/). NOT Pass A. Output: `manuscript/<unit>/pass-b.md` — the argument as a letter to a named skeptical non-philosopher friend, digressions included, badly organized on purpose.
-3. **Pass C — the merge.** FRESH context. Inputs: pass-a.md, pass-b.md, STYLE_BIBLE, VOICE, the brief, the two most recently frozen chapters (voice reference). Output: `manuscript/<unit>/draft-v1.md`. Case opens; letter's rhythm survives; "you" converted; looseness preserved; Pass D applied (delete the first paragraph; keep only if genuinely load-bearing, logged). Insert `<!-- ANCHOR-DRAFT -->` block of 200–400 w in first person at the load-bearing judgment point; add 2–4 `<!-- KEEP -->` marked imperfections.
+The old cycle cost ~1.4M tokens per chapter. Measurement showed most of that was not quality work:
 
-## Gates
+| Waste | Cost | Fix |
+|---|---|---|
+| Every agent re-read 12,900 words of spec (STYLE_BIBLE + VOICE + IDIOLECT + detection-log + canon) | ~170k/chapter | `spec/BRIEF.md`, 999 words, compiled. Agents read one file. |
+| Four reviewers each re-read the whole draft; three of them kept finding the same things | ~380k/chapter | Two reviewers: Referee (independent, adversarial) + Craft (cold-read, AI-tells and voice in one pass). |
+| Verifier re-extracted every claim from prose before it could check anything | ~140k/chapter | Pass C emits `claims.tsv`. The verifier checks a list. |
+| Audio script + endnotes hand-built per chapter | ~150k/chapter | `tools/mkaudio.py` does the mechanical 80% and emits a TODO of judgment calls. Batched at the end. |
+| Rhythm review re-read the chapter to find long sentences and homographs | ~100k/chapter | `mkaudio.py --todo` and lint report those mechanically. |
+| Research packets ran 25–30k words, most never used | ~150k/chapter | Capped: 3 candidate cases, 1,200-word packet. |
 
-**COMPRESSED CYCLE (adopted at ch-04, 2026-08-06).** The original cycle ran cold-read → repair →
-line-edit → Gate 3 → revision as five serial steps. From ch-04 onward the four readers (cold,
-referee, red team, voice curator) all run in PARALLEL against draft-v1, and their findings are
-resolved in ONE consolidated revision, followed by the line edit. This halves the serial depth per
-chapter without reducing coverage — the reviewers were never dependent on each other's output, only
-on the draft. Verification, rhythm review and freeze are unchanged.
+**Nothing that ever caught a real defect was removed.** The referee (which caught a fabricated
+mechanism), the verifier (a fabricated statistic, a migrated quote, four factual failures) and the
+three-pass drafting protocol are untouched.
 
-4. **Gate 2 — lint (orchestrator, Bash):** `python3 tools/lint.py manuscript/<unit>/draft-v1.md --frozen manuscript/frozen/*.md`. Hard fail → targeted fix agent with the lint report only; re-run until pass.
-5. **Gate 2.5 — burstiness worklist:** `python3 tools/burstiness.py manuscript/<unit>/draft-v1.md`. Advisory. Pass the 20-flattest-sentences worklist to the same fix agent for rewrites of the worst offenders (never optimise the score).
-6. **Cold review (24h proxy):** fresh-context agent reads draft-v1 knowing nothing of its production; flags register failures, self-echo, seams. Fixes applied → `draft-v2-pre.md`.
-7. **Line edit:** agent with STYLE_BIBLE only; cuts 10–20%; forbidden from `<!-- ANCHOR-DRAFT -->` and `<!-- KEEP -->` blocks. Output: `manuscript/<unit>/draft-v2.md`.
-8. **Gate 3 — adversarial, three parallel fresh agents:**
-   - Referee (hostile professional; strongest objection, ignored literature, tone-vs-strength gaps) → `reviews/<unit>/referee.md`
-   - Red Team (find every AI tell with line numbers) → `reviews/<unit>/redteam.md`
-   - Voice Curator (VOICE §1 deep causes + §10 judgment metrics: beat sentences, costly signals, obsession/omission, diction band, sensory anchors, idiolect) → `reviews/<unit>/voice.md`
-9. **Revision:** drafter-role agent given draft-v2 + all three reviews + CANON + brief. Every finding fixed, conceded in text, or escalated (logged in decisions.md). Output: `draft-v3.md`.
-10. **Gate 4 — continuity + verifier, two agents:**
-    - Continuity: reads draft-v3 + `reviews/concept-index.md` (running registry of where each concept is introduced; updates it); flags use-before-introduction and restatement of frozen material → fixes applied.
-    - Verifier: re-checks EVERY quotation and empirical claim against sources in Files/ or the web, independently of the evidence packet; pass/fail per claim → `reviews/<unit>/verify.md`. Any fail → fix or cut. A fabricated source is a project-ending error.
-11. **Gate 5 proxy — rhythm review:** fresh agent reads draft-v3 aloud-minded (breath rule, cadence monotony, tricolon audibility, weak paragraph closes, quote-boundary clarity for future audio). Fixes applied.
-12. **Freeze (PROVISIONAL):** copy to `manuscript/frozen/<unit>.md`; log freeze + all proxies in decisions.md; update concept-index; generate `audio/script/<unit>.md` (audio edition per STYLE_BIBLE §7: spoken numbers, restated antecedents, no cross-refs, homograph rewording from audio/homographs.tsv) — kept in sync so the audiobook run later is render-only; collect citations into `notes/<unit>.md` (endnote form) and append new sources to `research/sources.bib.md`.
-13. **Partial PDF:** `python3 tools/build_pdf.py --draft` after each freeze — the book is always buildable.
+## The cycle
+
+**Inputs.** `research/<unit>/packet.md` — ONE file, ≤1,200 words: three candidate cases with the
+vivid detail and the risks, then the claims the chapter needs with source and confidence. Gate 1
+selection logged in `reviews/<unit>/decisions.md`.
+
+1. **Pass A — the case, cold.** Reads: packet + `spec/BRIEF.md`. 400–700 words of reportage.
+   No invented atmospherics for real events, ever.
+2. **Pass B — the letter.** FRESH context, does NOT see Pass A. Reads: packet + BRIEF + the
+   chapter's argument sentence + the canon sections it needs. The single highest-value step in the
+   pipeline; do not skip or merge it.
+3. **Pass C — the merge.** FRESH. Reads: pass-a, pass-b, BRIEF, ONE most-recently-frozen chapter as
+   voice reference. Emits `draft-v1.md` **and `claims.tsv`** — every checkable claim it made, one per
+   line: `claim<TAB>source-from-packet<TAB>confidence`. A claim with no packet source must be marked
+   `CONJECTURE` and flagged as such in the prose.
+4. **Gate 2 — lint** (`tools/lint.py … --frozen manuscript/frozen/*.md`). Hard fails fixed by the
+   orchestrator directly; agents are not spawned for regex fixes.
+5. **Gate 3 — two reviewers, parallel.** Both read BRIEF + draft only.
+   - **Referee** — hostile domain expert. Argument, evidence, overclaiming, ignored literature.
+   - **Craft** — one agent, three lenses: cold read (register, seams, drift), AI tells (uniform
+     density, costless admissions, templates), voice (VOICE §10 scorecard, idiolect, cross-chapter
+     repetition). These three overlapped heavily in practice; splitting them bought little.
+6. **Revision.** One consolidated pass over both reviews. Reads: draft, two reviews, BRIEF.
+7. **Gate 4 — verify.** Reads `claims.tsv`, not the chapter. Checks each claim independently against
+   `Files/` (absolute path — see `research/FILES_INDEX.md`) or the web. PASS / NOTE / FAIL per line.
+   Unchanged in rigour; cheaper because the extraction work is already done.
+8. **Freeze.** Copy to `manuscript/frozen/`, log, update `reviews/concept-index.md`, rebuild the PDF.
+
+## Deferred to a single batched run at the end
+Audio scripts (`tools/mkaudio.py` per chapter, then ONE agent pass over all the `.todo.txt` files),
+endnotes (assembled from the `verify.md` files), and the bibliography. Doing these per-freeze cost
+~150k a chapter and bought nothing the batch won't.
 
 ## Part boundaries
-After the last unit of each Part: **Gate 6 proxy** — 5 fresh blind judge agents, 20 paragraphs (10 from the Part, 10 from voice/seed/models/), proper nouns stripped; ≥3-of-5 flags → rewrite + pattern logged in `reviews/detection-log.md` and VOICE.md updated.
+Gate 6 detection panel, unchanged: 20 paragraphs, half from the Part and half from the model corpus,
+proper nouns stripped, five blind judges. `reviews/panel/` holds the builder and the key.
 
-## Escalation
-Three failures at the same gate → stop the unit, log in decisions.md, move on ONLY if a later unit doesn't depend on it; otherwise surface to Showrunner. Session/API limit deaths: every step writes to disk first; re-run the step, never the whole cycle.
-
-## Pass C hard rule (added after ch-04 Gate 3)
-
-**The merge may not introduce a causal mechanism that is not in the evidence packet.** Pass C's job
-is to fuse the case and the letter, not to explain the world. Twice now a merge agent has
-synthesized a plausible-sounding mechanism and stated it as established fact (ch-03's Nobel claim,
-ch-04's duel-as-credit-system). If the merge wants an explanation the research does not supply, it
-must appear in the text as the author's own conjecture, explicitly flagged, and it may not be
-load-bearing. Verifiers: treat any uncited mechanism as a FAIL by default.
-
-## Briefing rule for researchers and verifiers (added 2026-08-06)
-
-The source library lives at `/Users/brennankelley/Desktop/Projects/Book-Data-main/Files/` — the
-PROJECT ROOT, one level above `book-production/`. Always give agents the ABSOLUTE path. A researcher
-briefed with a bare `Files/` concluded the library did not exist and silently substituted web
-sources. See `research/FILES_INDEX.md` for what is there and which PDFs actually extract.
+## Model selection
+Mechanical passes (audio TODO resolution, endnote formatting, lint fixes) go to Haiku. Drafting,
+review and verification stay on Sonnet. Orchestration judgment stays here.
