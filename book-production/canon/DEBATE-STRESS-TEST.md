@@ -156,3 +156,95 @@ Three rules:
 > we're bad at judging our own cases, so we build rules and procedures the way you'd build a bridge,
 > and we publish what would prove us wrong. You start somewhere too. The difference is that my
 > starting point is one you can put your hand on.
+
+---
+
+# Part Two — the remaining traps, and the counter-case
+
+## The traps, with answers
+
+**"If only suffering matters, what's wrong with killing someone painlessly in their sleep?"**
+
+The sharpest trap available against a valence-grounded view, and it must not be met with improvisation.
+
+Two answers, and give the first:
+
+1. *The states that never happen.* Killing does not merely avoid pain; it destroys the being who would
+   have had decades of experience. The badness is in everything that does not now occur. The person
+   exists at the moment of the act, so the reasons in play are not conditional-on-existence reasons
+   about merely possible people (POS-10) — they are reasons about someone who is there.
+2. *And the rule is load-bearing.* Even in a case constructed so nobody ever knows, a society in which
+   the prohibition on killing holds only when discovery is unlikely has no prohibition on killing. This
+   is the standing-rules argument doing exactly the work it exists for.
+
+Do not say "it's wrong because of the suffering of the bereaved." That answer is available and it is
+bad — it makes killing a hermit permissible, and everyone in the room will see it.
+
+**"Where do rights come from on your view?"**
+
+*Rights are what we build when a protection has to hold even when violating it would pay.* They are
+hardened coordination equilibria — deliberately expensive to override, because a protection that bends
+whenever someone calculates a benefit provides no protection at all. That is why they are written down,
+entrenched, and made costly to amend.
+
+Then concede the real cost before he finds it: on our account rights are contingent on the arrangements
+that sustain them, in a way they are not on his. Our reply is that this describes every actual rights
+regime — rights fail everywhere institutions fail — and that a metaphysical guarantee that has never
+once stopped a determined state is not obviously the more practical article.
+
+**"Is a human worth more than a rat?"**
+
+Careful — the graded answer is correct and sounds monstrous compressed. Lead with the verdict:
+*Yes.* Then the reason: a human being has vastly greater capacity for suffering and for the goods that
+make a life go well, and moral weight tracks that capacity (CK-8's expected-valence doctrine). Then the
+part that is worth saying out loud: *and this is a framework on which a rat's pain is not nothing,
+which is a conclusion I'd rather defend than the alternative.*
+
+**"Is someone's pleasure in cruelty a good?"**
+
+No. Two reasons: the victim's suffering is bad in a way the sadist's enjoyment does not offset under
+prioritarian weighting; and per the amended POS-06, positive welfare is not a single quantity that a
+sadist can top up — the goods that constitute a life going well (connection, understanding) are the
+ones cruelty destroys in the person practising it.
+
+**"So a society that tortures for entertainment is just different, not worse?"**
+
+Worse. Flatly. Not different, not culturally situated, not a matter of our norms. The suffering is real
+and its badness is not indexed to anyone's opinion, including that society's.
+
+## The counter-case — go on offense here
+
+A purely defensive performance loses even when every answer is right. One line of attack is available
+and it is the framework's actual comparative advantage:
+
+**Divine command has no error-correction procedure.**
+
+Not "religious people have been wrong" — that is cheap and he has answers. The structural claim: *when
+an interpretation of the standard is mistaken, what is the mechanism by which anyone finds out?* An
+unchanging standard mediated by fallible interpreters gives you unchanging confidence, not unchanging
+correctness, and the two are easy to confuse from the inside. Every tradition has reversed positions it
+once held with certainty, and each reversal happened *somehow* — the question is whether the mechanism
+is part of the system or arrives from outside it.
+
+Ours is part of the system: positions carry confidence ratings, named vulnerabilities, and published
+conditions under which we would abandon them. The Registry exists so that being wrong is survivable and
+detectable.
+
+**The framing to use:** *You have a standard that cannot change and interpreters who cannot be checked.
+I have a standard you can check and a procedure for discovering I'm wrong. One of those is built for
+beings who make mistakes.*
+
+**Do not overreach.** He can reply that scripture and tradition contain correction mechanisms, and that
+is a fair answer deserving a real one. The honest version of our claim is comparative, not absolute:
+error-correction is the framework's *primary design goal* and in his system it is a secondary feature.
+
+## The single most important instruction
+
+**Do not try to win the metaethics on stage.** Sidgwick's dualism is unclosed, the axiom is not uniquely
+compelled, and neither of those is a defeat in a two-hour exchange — they are defeats only if concealed
+and then exposed. The framework's advantage in this format is that it has already written down its own
+weak points, so nothing an opponent produces can be a revelation.
+
+Say what is true, concede what is conceded, and hand back the symmetry every time: he has a brute
+starting point too, he cannot derive obligation from value either, and his interpreters can be wrong
+with no procedure for noticing.
