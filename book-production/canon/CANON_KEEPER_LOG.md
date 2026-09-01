@@ -119,3 +119,59 @@ asymmetry: valence is ENCOUNTERED, preference-satisfaction is INFERRED, perfecti
 Exactly one candidate axiom has first-person evidence behind it; the others have arguments. This is an
 evidential asymmetry, not a logical compulsion, and it collapses if POS-01 fails — in which case the
 degradation tiers (POS-02) already describe what happens. Affects: Ch. 5, Ch. 7.
+
+---
+
+## Rival audit, 2026-08-27 (CK-20 … CK-24)
+Full argument in `canon/RIVAL-AUDIT.md`.
+
+**CK-20 — Hare is named, credited, and distinguished (the originality claim is now earned).** Two-level
+utilitarianism is structurally near-identical to standing-rules-plus-override, and the book has been
+presenting the rules-beat-calculation argument as its own when it is Hare's. Credit him. The real
+difference: Hare distinguishes KINDS OF THINKING; we specify a PROCEDURE (trigger, delay, review,
+standing). Decisive asymmetry to state explicitly: Williams's objection that Hare's bifurcated
+psychology is incoherent — workable only for agents who fail to reflect on their own decision-making —
+is fatal to Hare and does not touch us, because our gates are public and procedural. Every agent can
+know the whole architecture and it still works. Affects: Ch. 8, Ch. 10.
+
+**CK-21 — The framework accepts Williams's internal-reasons thesis.** This is a real concession and it
+costs less than it appears. CK-9 already split value from reasons: we claim agent-neutral VALUE
+(metaphysics of states) and route REASONS through the coordination layer, which is an account of how
+motivations are built and sustained. We never required external reasons. Also: on integrity and "one
+thought too many" we are better placed than any consequentialism — the standing rules exist so the
+calculation never happens, and after CK-12 the standing question does not even arise in Williams's
+wife case. And on his deepest point — that systematising ethics is itself the error — we CONCEDE in
+part: this is a method for coordination, error-correction and decision under known bias, not a theory
+of the good life, and a system whose own architecture says "mostly do not use the system" is not the
+target he built the objection for. Affects: Ch. 5, Ch. 8, Ch. 13, the rivals material.
+
+**CK-22 — Scanlon enters the book (he was absent entirely).** Contractualism is the strongest rival on
+structure: it gets separateness of persons for free where we bolt constraints onto an aggregative base.
+Our position is BOUNDED AGGREGATION — prioritarian weighting above a lexically prior floor, separateness
+constraints bounding both — presented as a chosen middle with costs on both sides, not as obviously
+correct. Our advantage is the numbers problem and small-harms-across-many, which aggregation-blindness
+handles badly. CREDIT REQUIRED: our fourth override condition (articulable to a skeptical third party
+who does not share your interests) is justifiability-to-each in procedural clothing. Say so before a
+reviewer does. Affects: Ch. 10, Ch. 17, the rivals material.
+
+**CK-23 — Particularism is conceded at the level it operates and is harmless to us.** Dancy's holism is
+a thesis about the metaphysics of reasons. Our rules make no claim to be true generalisations about
+reasons; they are devices for agents with known biases, justified by bias-resistance, cognitive economy
+and trustworthiness. Dancy can be entirely right and the architecture stands — indeed holism
+STRENGTHENS the case for rules, since a more context-sensitive moral landscape is one an agent under
+pressure is less able to read correctly. THE COST, to be stated in Ch. 8: our rules track reliability,
+not moral reality. That is a smaller claim than the book has sometimes implied. Affects: Ch. 8.
+
+**CK-24 — Korsgaard difference marked; Nietzsche promoted to a real rival; care and Confucian ethics
+become interlocutors rather than donors.** (a) Both regresses stop somewhere: hers at autonomy and
+rational agency, ours at valence met in acquaintance. Hers excludes whatever cannot reflect; ours does
+not — infants, animals and the deeply disabled are inside by construction rather than by extension.
+(b) Nietzsche attacks the axiom directly and the book has been ducking him. Our answer: the axiom says
+suffering MATTERS, not that it must always be prevented, and goods pluralism already entails that a
+life organised solely around avoiding pain is a bad one. Concede the characteristic failure mode —
+comfort mistaken for flourishing — in the Coda. (c) Care ethics is right about dependency being primary
+and non-contractual: concede the coordination layer's SCOPE LIMIT rather than absorbing care as a virtue
+list; the circle argument and repair carry that territory. (d) Confucian role ethics converges with
+CK-12: standing is a role-based concept, reached from the opposite direction. The donor/opponent
+asymmetry — adversarial chapters for Western systems, parts-mining for non-Western ones — is retired.
+Affects: Ch. 6, Ch. 11, Ch. 13, the Coda, the rivals material.
