@@ -302,3 +302,119 @@ Present the method, not the policy bundle, in both the institutions and markets 
 5. **Democracy and minority protection.** CANON §7 justifies democracy purely as a removal mechanism and doesn't connect that justification to the rights/separateness-of-persons constraints (§4) that would presumably protect minorities from majority removal-power abuse. Should Ch. 16 make this connection explicit, or is it deliberately left for the reader to infer from Book-wide context?
 
 6. **Mode A's English replacement.** CANON §6.1 and the Ch. 8 brief both instruct that "Mode A" and "Mode B" must not appear in the book text ("find English for them"). CANON §6.2 already supplies a partial answer for Mode B — it is headed "Mode B — the override," so "the override" is CANON's own working synonym. No equivalent synonym is given anywhere in the read material for Mode A. Should GLOSSARY.md propose a placeholder term (e.g., "the default," "the standing rule") for cross-team use before Ch. 8 is drafted, or should Canon Keeper leave this entirely to the Drafter?
+
+---
+
+# AMENDMENTS — 2026-08-27
+
+The strengthening pass (`canon/STRENGTHENING-2026-08.md`) and rival audit (`canon/RIVAL-AUDIT.md`)
+amend the entries below. Where an amendment conflicts with the original entry above, the amendment
+governs. Rulings: `CANON_KEEPER_LOG.md` CK-9 … CK-25.
+
+## Amended entries
+
+**POS-01 — Phenomenal Value Realism.** Scope widened: it now carries the *agent-neutral value* claim.
+A badness constitutive of a state is not indexed to an observer, so the axiom yields impartial value
+directly and does not need the coordination layer for it (CK-9). Also carries the evidential asymmetry
+that makes the axiom non-arbitrary: valence is *encountered*, preference-satisfaction is *inferred*,
+perfectionist value is *judged* (CK-19).
+
+**POS-04 — The Coordination Derivation of Impartiality.** SPLIT. It no longer derives impartiality;
+it derives *reasons to act on* impartial value that the axiom already supplies. Confidence stays
+MODERATE. The vulnerability is narrowed accordingly: against the durably-advantaged agent we claim
+only that he must hold that badness varies with whose it is, which his own acquaintance-based
+epistemology overturns whenever he is in pain. Sidgwick's dualism is not closed and is named as not
+closed. The framework additionally ACCEPTS Williams's internal-reasons thesis (CK-21): reasons connect
+to motivational sets, and this layer is the account of how those motivations are built.
+
+**POS-05 — The Unstable-Schelling-Point Circle Argument.** Mechanism relocated (CK-10). Instability
+sits with the *includers*, not the excluded: every criterion ever used to maintain a boundary either
+cuts into the in-group or is admitted arbitrary. Second mechanism: arbitrary exclusions carry ongoing
+maintenance costs that inclusive lines do not. Now reaches permanently non-reciprocal beings. Retains
+STRONG. Residual: predicts erosion over long horizons only — consistent with caste holding for
+centuries, which must be said where caste is discussed.
+
+**POS-10 — Population Ethics.** Upgraded from "person-affecting default, costs acknowledged" to a
+**wide person-affecting view with wide-scope conditional reasons** (Frick), which is built to handle
+non-identity (CK-18). PROVISIONAL retained. Arrhenius's impossibility results still bind; the book
+names which counterintuitive conclusion it accepts rather than claiming escape.
+
+**POS-13 — The Override Conditions.** Now SIX. **Standing** is added and is consulted first, being
+cheapest to check and most often decisive: the agent must hold causal standing (in the chain), role
+standing (the position assigns it), or last-actor standing (nobody better placed in the time
+available) (CK-12). Without it the architecture was satisfiable by anyone anywhere with a strong
+opinion.
+
+**POS-11 — The Three-Axis Diagnosis.** Extended with an interaction theory and a diagnostic rule
+(CK-14): coordination success weaponised by circle failure (where mechanism design makes things
+*worse*); epistemic failure as circle maintenance; coordination failure obscured by manufactured fog.
+
+**POS-21 — The Capability Floor.** Rederived as a **legitimacy precondition** rather than a welfare
+threshold (CK-15): below it a person cannot exit, object or impose a cost, so error-correction
+primacy — the system's own account of why its institutions deserve obedience — is false for them.
+Confidence raised to STRONG.
+
+**POS-07 / POS-08 / POS-09 — Aggregation.** Priority rule added: the floor is lexically prior up to
+the floor; prioritarian weighting governs above it; separateness constraints bound both. The book
+names a case where this refuses a large aggregate gain (§8a).
+
+## New entries
+
+### POS-23: The Stability/Rightness Distinction
+**Confidence:** STRONG · **Ref:** CK-11
+Three claims are never again used interchangeably: STRUCTURAL (this is a stable equilibrium —
+predictive, no normative content), PRUDENTIAL (you would accept it under uncertainty about your
+position — does not reach the entrenched), NORMATIVE (suffering is bad irrespective of whose).
+Where only the structural claim is available the text says so.
+**Vulnerability:** a discipline, not a substantive position; its value is entirely in being kept.
+
+### POS-24: Repair as Re-entry
+**Confidence:** MODERATE · **Ref:** CK-13
+What is owed after wrongdoing: acknowledgment (naming the act without softening), restitution in the
+currency actually lost, costly change (a cheap apology is cheap talk), and the wronged party's
+standing to withhold forgiveness. Forgiveness is a coordination benefit, never a debt owed by the
+person harmed.
+**Vulnerability:** the four parts are asserted from the game-theoretic function of forgiveness rather
+than derived; a critic may say the fourth element sits awkwardly with the first three, since a repair
+that the wronged party may always refuse is not obviously a repair.
+**What would change my mind:** a demonstrated case where withholding forgiveness after complete
+repair is itself a wrong.
+
+### POS-25: Bounded Moral Uncertainty
+**Confidence:** MODERATE · **Ref:** CK-16
+Expected-value reasoning under moral uncertainty informs deliberation but never by itself clears the
+override gates. Uncertainty is a reason to widen the option set and buy information, not a licence for
+acts the gates would otherwise stop. This is the brake against fanaticism.
+**Vulnerability:** the brake is stipulated rather than derived, and a sufficiently large stake will
+always make the stipulation look arbitrary to someone.
+
+### POS-26: No-Self as Support
+**Confidence:** MODERATE · **Ref:** CK-17
+Reductionism about personal identity does not threaten the framework. The axiom needs no subject —
+strip the enduring self and states with awful felt character remain, unowned. And Śāntideva
+(*Bodhicaryāvatāra* ch. 8) argues *from* no-self *to* impartial benevolence; Parfit reaches a
+neighbouring conclusion. This reinforces the framework's weakest argument, since the
+durably-advantaged egoist needs the me/them boundary to be metaphysically robust.
+**Vulnerability:** cuts both ways — reductionism weakens the prudential half of POS-04, since an agent
+with less special concern for his own future is less moved by uncertainty about his future position.
+Do not conscript "Buddhism" as a bloc; scholars dispute Parfit's claim that the Buddha would have
+agreed with him.
+
+### POS-27: Demandingness
+**Confidence:** PROVISIONAL · **Ref:** CK-25
+Every system owes an answer to how much it asks, and this one has not given it. The answer follows
+from the architecture rather than from a separate principle: **the standing rules set the ordinary
+demand, and it is bounded.** You are not required to run expected-value calculations over strangers
+continuously; that is precisely the mode the rules exist to prevent. What the framework demands of an
+individual is (i) compliance with rules whose justification includes the interests of the distant and
+the voiceless, (ii) support for institutions that raise the floor — which is where the heavy
+obligations live, discharged collectively rather than personally, and (iii) the override only when all
+six conditions and three gates clear, which is rare by design.
+This is *less* demanding than Singer's drowning-child extension and *more* demanding than common-sense
+morality, because the institutional obligation is real and continuous even when the personal one is
+bounded.
+**Vulnerability:** routing heavy obligation through institutions is convenient for the comfortable,
+and a critic will say so. If the institutions do not exist or are captured, the framework has not yet
+said what the individual owes in the meantime — and that is exactly the situation most readers are in.
+**What would change my mind:** a showing that the institutional route is systematically unavailable
+for the obligations that matter most, in which case the personal demand has to rise to meet it.

@@ -175,3 +175,22 @@ list; the circle argument and repair carry that territory. (d) Confucian role et
 CK-12: standing is a role-based concept, reached from the opposite direction. The donor/opponent
 asymmetry — adversarial chapters for Western systems, parts-mining for non-Western ones — is retired.
 Affects: Ch. 6, Ch. 11, Ch. 13, the Coda, the rivals material.
+
+**CK-25 — Demandingness answered (new POS-27), and the rival engagements get homes.**
+(a) DEMANDINGNESS. Every major system answers how much it asks; ours never had. The answer comes from
+the architecture: the standing rules set the ordinary demand and it is BOUNDED — you are not required
+to calculate over strangers continuously, which is the mode the rules exist to prevent. Heavy
+obligations run through institutions that raise the floor (POS-21), discharged collectively; the
+override is rare by design. Less demanding than Singer, more than common sense. The honest weakness is
+printed: routing obligation through institutions suits the comfortable, and where institutions are
+absent or captured we have not said what the individual owes in the meantime — which is the situation
+most readers are actually in.
+(b) HOMES for the rival audit, since the intro volume cut the standalone rivals chapters: **Hare and
+Dancy → Ch. 8** (the rules chapter — Hare credited, the procedural-vs-psychological difference and the
+Williams asymmetry stated; Dancy conceded, with the admission that our rules track reliability rather
+than moral reality). **Scanlon → Ch. 10** (credit for justifiability-to-each, which our fourth
+condition borrows) **and Ch. 17** (bounded aggregation as a chosen middle). **Williams → Ch. 5**
+(internal reasons, accepted) **and Ch. 13** (integrity and "one thought too many," where we are better
+placed than any consequentialism). **Korsgaard → Ch. 6** (the two regresses and where they stop).
+**Nietzsche and the comfort-mistaken-for-flourishing blindness → the Coda.** **Care ethics → Ch. 13**
+(scope limit conceded). **Confucian role ethics → Ch. 9** (standing is role-based).
