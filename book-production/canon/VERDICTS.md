@@ -89,7 +89,11 @@ conditional on existence.
 Ours accepts that certain very large populations cannot be ranked against certain small ones as
 cleanly as a total view would. The book names this rather than claiming escape.
 
-## The experience machine
+## The experience machine — REVISED 2026-08-27, see `canon/WELFARE.md`
+
+**This entry recorded a bullet that the amended POS-06 no longer forces.** It is left standing rather
+than rewritten, because the framework's own rules require that a published verdict which later changes
+show its working. What follows is the original reasoning; the correction is stated at the end.
 
 **A genuine bullet, and the sharpest one here.** POS-06 holds that only valence is intrinsically
 valuable and that autonomy, competence, connection, understanding and meaning are *conditions* of
@@ -99,6 +103,13 @@ delivered equivalent sustained valence would have to be permissible to enter.
 The framework's real objection is therefore **empirical, not moral** — the machine would not deliver
 it, because the goods that sustain positive valence over a life are precisely what the machine
 removes. That is a prediction, and predictions can be wrong.
+
+**THE CORRECTION.** POS-06 was rewritten on 2026-08-27 (CK-27): the framework is asymmetric — phenomenal
+realism about suffering, goods pluralism about flourishing — because Parfit's heterogeneity argument
+defeats symmetric hedonism about the positive pole while asymbolia protects the negative one. Under the
+amended position the machine removes goods that are not stand-ins for a valence quantity, so entering it
+is not permissible-in-principle and the objection is moral rather than merely predictive. The original
+reasoning below stands as the record of what the earlier position committed us to.
 
 We should print this rather than reach for a value-pluralism the axiom does not license. It is the
 clearest place where the single-axiom commitment costs something, and a reader who wants to reject the

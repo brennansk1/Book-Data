@@ -367,6 +367,8 @@ predictive, no normative content), PRUDENTIAL (you would accept it under uncerta
 position — does not reach the entrenched), NORMATIVE (suffering is bad irrespective of whose).
 Where only the structural claim is available the text says so.
 **Vulnerability:** a discipline, not a substantive position; its value is entirely in being kept.
+**What would change my mind:** a demonstration that the three claims cannot in practice be separated — that
+every structural claim in the book smuggles a normative one, in which case the distinction is decorative.
 
 ### POS-24: Repair as Re-entry
 **Confidence:** MODERATE · **Ref:** CK-13
@@ -387,6 +389,8 @@ override gates. Uncertainty is a reason to widen the option set and buy informat
 acts the gates would otherwise stop. This is the brake against fanaticism.
 **Vulnerability:** the brake is stipulated rather than derived, and a sufficiently large stake will
 always make the stipulation look arbitrary to someone.
+**What would change my mind:** a case where refusing to let expected value clear the gates produces a
+foreseeable catastrophe that the gates themselves had no other way to stop.
 
 ### POS-26: No-Self as Support
 **Confidence:** MODERATE · **Ref:** CK-17
@@ -399,6 +403,8 @@ durably-advantaged egoist needs the me/them boundary to be metaphysically robust
 with less special concern for his own future is less moved by uncertainty about his future position.
 Do not conscript "Buddhism" as a bloc; scholars dispute Parfit's claim that the Buddha would have
 agreed with him.
+**What would change my mind:** a showing that the axiom does require an owner after all — that
+"suffering" without a subject is not a coherent description of anything.
 
 ### POS-27: Demandingness
 **Confidence:** PROVISIONAL · **Ref:** CK-25
@@ -466,3 +472,5 @@ survives preference adaptation, and a floor that adapts with the preferences is 
 preference-authority is overridden, or it becomes a licence to discount preferences we dislike. The
 current answer — only at the floor, and only in capability terms — is a stipulation that will be
 pushed on.
+**What would change my mind:** a case where overriding a competent person's settled preference, above
+the floor, is clearly right — which would show the authority claim is doing less work than stated.
