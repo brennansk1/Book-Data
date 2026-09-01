@@ -263,3 +263,24 @@ own pain is not a loan — Śāntideva is the live example of the framework taki
 tradition's argument on its merits); and two symmetric concessions — we cannot get obligation from
 value for an agent who does not care, and neither can divine command, since "God will punish you" is a
 prudential reason with the shape of a threat.
+
+**CK-29 — The constraint set becomes explicit; the practical procedure is specified
+(`canon/PRACTICAL-USE.md`).** The intro volume gives politics and economics two chapters under an
+explicit method-only instruction, which correctly protects the core from policy disagreement but
+leaves a real defect: a method that never produces a verdict is indistinguishable from one that
+cannot, and "apply the framework" becomes a way of dressing conclusions already held.
+The fix is NOT a policy bundle. It is a CONSTRAINT SET — six vetoes the framework actually issues,
+each traceable to a position rather than to the author's politics: (1) nothing may push people below
+the capability floor, which since CK-15 is a legitimacy precondition and rules out trading a permanent
+underclass for growth; (2) no institution may lack a removal mechanism — an arrangement that performs
+well and cannot be removed fails *while performing well*; (3) no policy may degrade the capacity to
+detect its own failure, which rules out the standard form of emergency-powers arguments; (4) no
+coordination may be organised against an excluded group (Axis 2, and per CK-14 mechanism design makes
+these WORSE); (5) no aggregate gain may breach separateness constraints; (6) the epistemic commons may
+not be degraded. The book must state that these are NOT symmetric between left and right and must not
+pretend otherwise — an honest application annoys both sides, which is evidence the constraints bind.
+Also specifies the four-step procedure a reader can actually run (diagnose the axis → constraint check
+→ empirical-premise audit → divergence test), and what Volume II owes, including at least one worked
+case where the author's own position loses to the constraint set.
+Affects: Ch. 16, Ch. 17 (the constraint set and procedure belong in the intro volume even though the
+policy conclusions do not), and the Volume II specification.
