@@ -418,3 +418,51 @@ and a critic will say so. If the institutions do not exist or are captured, the 
 said what the individual owes in the meantime — and that is exactly the situation most readers are in.
 **What would change my mind:** a showing that the institutional route is systematically unavailable
 for the obligations that matter most, in which case the personal demand has to rise to meet it.
+
+## Amendment — 2026-08-27 (welfare build-out, `canon/WELFARE.md`, CK-27)
+
+**POS-06 — Value Monism, Goods Pluralism → REWRITTEN as an asymmetric position.**
+
+The old formulation ("only valence is intrinsically valuable; autonomy, competence, connection,
+understanding and meaning are conditions of it") read as symmetric hedonism and imported hedonism's
+worst results — most visibly the experience machine, which VERDICTS.md had to record as a bitten
+bullet. Parfit's argument (R&P Appendix I, p. 494) is the reason it could not stand: the pleasures of
+slaking thirst, hearing music, solving a problem, reading tragedy and knowing one's child is happy
+share no distinctive common quality, so "positive valence" is not one property with amounts, and what
+unifies the pile is *wanting* — which hands the positive pole to the attitudinal theorists.
+
+That argument is far weaker for the negative pole, where we have evidence Parfit did not use: pain
+asymbolia. If badness were constituted by the aversion, a patient without the aversion would be a
+patient without pain; asymbolia patients report the pain and do not mind it. There is no comparably
+clean dissociation on the positive side.
+
+**The position now:**
+- **Suffering: phenomenal realism, MODERATE.** The awfulness is a felt property, met in acquaintance,
+  dissociable from the aversion.
+- **Flourishing: goods pluralism, PROVISIONAL.** Autonomy, competence, connection, understanding,
+  meaning. Not one substance in amounts; the book stops implying they are interconvertible.
+
+The axiom was always asymmetric — it speaks of *suffering*, and never said pleasure is the only good.
+This is NOT negative utilitarianism: flourishing matters, we are simply less certain what it consists
+in, and the confidence levels now show it.
+
+**Known vulnerability:** the derivation of the goods as *conditions* of sustained positive valence is
+an empirical bet. If the psychology does not support it, the position collapses into an objective list
+with extra steps. **What would falsify it:** a population sustaining high positive valence across a
+life while lacking autonomy, competence and connection.
+
+### POS-28: The Role of Preferences
+**Confidence:** MODERATE · **Ref:** CK-27
+Preferences are **evidence about, and authority over, a person's own goods — not the constituents of
+welfare.** Three cases fix the position: Parfit's cured stranger (unrestricted desire theories are
+false — a fulfilled desire you never learn of does not improve your life); adaptive preferences
+(Khader: deficits in the capacity to flourish causally related to deprivation — if welfare just is
+preference satisfaction, the cheapest way to raise it is to teach people to want less); and Freud
+refusing morphine to think clearly in torment (his preference was authoritative about what those weeks
+were for, and any theory that calls him mistaken is not describing a life).
+This is why institutions default to stated preferences while the capability floor does not — capability
+survives preference adaptation, and a floor that adapts with the preferences is not a floor.
+**Vulnerability:** "evidence and authority but not constituent" needs a principled account of when
+preference-authority is overridden, or it becomes a licence to discount preferences we dislike. The
+current answer — only at the floor, and only in capability terms — is a stipulation that will be
+pushed on.

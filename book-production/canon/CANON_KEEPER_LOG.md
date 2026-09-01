@@ -209,3 +209,27 @@ would be permissible to enter, and our objection is the prediction that it would
 are consequences of deliberate commitments (procedural architecture; the single axiom). Also standing:
 Singer's drowning-child extension is resisted via POS-27, with the acknowledgement that this is the
 comfortable answer. Affects: Ch. 9, Ch. 10, Ch. 13, the Coda.
+
+**CK-27 — The welfare theory is built out, and POS-06 was wrong (`canon/WELFARE.md`).** The value
+theory has been a position sketch with three rival accounts standing outside it unaddressed.
+THE STRUCTURAL CORRECTION: the framework is ASYMMETRIC and the book has been reading a symmetry into
+the axiom that its words do not contain. Parfit (R&P Appendix I p. 494) shows the pleasures of thirst,
+music, problem-solving, tragedy and a child's happiness share no distinctive common quality — so
+"positive valence" is not one property with amounts, and what unifies them is wanting, which concedes
+the positive pole to the attitudinal theorists. The argument is far weaker for suffering, where
+asymbolia gives us a dissociation Parfit did not use: patients report the pain and do not mind it, so
+badness is not constituted by aversion. Hence phenomenal realism about suffering (MODERATE), goods
+pluralism about flourishing (PROVISIONAL). Not negative utilitarianism — flourishing matters; we are
+less certain what it consists in and now say so.
+THIS REVISES A PUBLISHED VERDICT: the experience machine is no longer a forced bullet, since the
+machine removes goods that are not stand-ins for a valence quantity. Recorded as a revision in
+WELFARE.md rather than quietly corrected.
+PREFERENCES get a defined role (new POS-28): evidence about and authority over one's own goods, not
+constituents of welfare — fixed by three cases (Parfit's cured stranger; adaptive preferences per
+Khader; Freud refusing morphine). This explains why institutions defer to stated preferences while the
+capability floor does not: capability survives preference adaptation.
+GOODS PLURALISM gains a falsification condition, without which it is a posited objective list wearing
+a derivation.
+Affects: Ch. 5 (the asymmetry belongs where the axiom is defended), Ch. 14 (flourishing), Ch. 15
+(Freud belongs in the suffering-and-death chapter), Ch. 17 (the floor/adaptive-preference connection),
+the Coda (the revised experience-machine verdict).
