@@ -90,3 +90,32 @@ of it — my recommendation, and closest to how the chapter's own cases already 
 Ch. 10 under freeze-change discipline. CK-9 and CK-14 also touch frozen Ch. 1 and Ch. 6 material at the
 level of framing rather than claim; the concept index has been updated so later chapters do not
 contradict them.
+
+**CK-17 — No-self answered, and it supports the framework (new POS-26).** CANON §8 listed the no-self
+problem as the sharpest live threat. It is not a threat. (a) Phenomenal value realism needs no subject:
+strip the enduring self and states with awful felt character remain — the badness stops being owned,
+which is what §1 of the strengthening pass says it never should have been. (b) Śāntideva
+(Bodhicaryāvatāra ch. 8) argues FROM no-self TO impartial benevolence: if the boundary between lives
+isn't deep, privileging suffering inside one's own weakens. Parfit reaches a neighbouring conclusion in
+Reasons and Persons. This reinforces exactly the argument that was weakest — the durably-advantaged
+egoist's position depends on that boundary being metaphysically robust. TWO COSTS, both to be printed:
+do not conscript "Buddhism" as a bloc or treat the Parfit/Buddhist convergence as settled (scholars
+specifically dispute Parfit's claim that the Buddha would have agreed); and reductionism WEAKENS the
+prudential half of the derivation, since an agent with less special concern for his own future is less
+moved by uncertainty about his future position. Affects: Ch. 7, the Coda.
+
+**CK-18 — Population ethics upgraded from bitten bullet to defended position (POS-10).** The bare
+"person-affecting restriction with costs acknowledged" becomes a WIDE person-affecting view with
+wide-scope conditional reasons (Frick), which is built to handle non-identity and lets the book hold
+that a very good life is better than a merely good one. This is consistent with machinery the framework
+already uses — CK-8's expected-valence doctrine and bounded moral uncertainty are the same
+conditional-obligation structure. Arrhenius's impossibility results still bind: the book names which
+counterintuitive conclusion it has accepted rather than claiming escape. Confidence stays PROVISIONAL.
+Affects: Ch. 6, the Coda.
+
+**CK-19 — The axiom is chosen but not arbitrary (POS-03).** No derivation is manufactured; POS-03 keeps
+AXIOM status and the "not uniquely compelled" concession stands. What is added is an evidential
+asymmetry: valence is ENCOUNTERED, preference-satisfaction is INFERRED, perfectionist value is JUDGED.
+Exactly one candidate axiom has first-person evidence behind it; the others have arguments. This is an
+evidential asymmetry, not a logical compulsion, and it collapses if POS-01 fails — in which case the
+degradation tiers (POS-02) already describe what happens. Affects: Ch. 5, Ch. 7.

@@ -271,3 +271,116 @@ cost, and §8(a)'s priority rule does not touch it. The no-self problem is untou
 sharpest live threat to a valence-grounded theory. The axiom is still chosen rather than compelled
 (POS-03), and §1 above narrows the egoist's position without closing Sidgwick's dualism. And the
 framework is still, as CANON §8 says, blind to something its successors will see.
+
+---
+
+# Part Two — the three gaps the first pass left open
+
+Written after a research pass. Two of them turn out to have live answers in the literature; the third
+gets a genuine improvement rather than a solution.
+
+---
+
+## 9. The no-self problem is support, not a threat (CANON §8)
+
+CANON calls this "the sharpest live threat to a valence-grounded theory": if there is no persistent
+subject — Buddhist *anātman*, or Parfit's reductionism about personal identity — whose suffering
+matters, and across what boundaries does aggregation run? It has been sitting in the Coda as an
+unanswered worry.
+
+**It is answerable, and the answer strengthens the framework's weakest joint.**
+
+**Step one: the axiom never needed a subject.** On phenomenal value realism the badness is
+constitutive of the state, not conferred by a self who owns it (POS-01, and CK-8's refusal of the
+tracking picture). Strip out the enduring self and what remains is still a state with awful felt
+character. The badness does not evaporate for want of an owner; it simply stops being *owned*. If
+anything the axiom is cleaner under reductionism, because there is no proprietor left to make the
+badness relational — which is the very thing §1 of this pass argued it was never supposed to be.
+
+**Step two — and this is the part worth having: no-self is a premise FOR impartiality.** Śāntideva
+argues in the eighth chapter of the *Bodhicaryāvatāra* that the nonexistence of an enduring self is
+grounds for committing to impartial benevolence: if the boundary between lives is not the deep thing
+it appears to be, the reason for privileging suffering that falls inside *my* boundary weakens with
+it. Parfit reaches a neighbouring conclusion from analytic premises in *Reasons and Persons* — that
+reductionism gives us less reason for special concern about our own futures.
+
+Note where that lands. The framework's weakest argument is against the durably-advantaged egoist
+(§1 above), and his position depends on a robust me/them boundary doing real metaphysical work.
+No-self attacks exactly that boundary. **The doctrine filed as the sharpest threat turns out to
+reinforce the argument that needed reinforcing most.**
+
+**Two honest costs, both printed.**
+- *Don't overclaim the parallel.* Scholars of Buddhist philosophy have specifically criticised Parfit
+  for claiming the Buddha would have agreed with him. Cite Śāntideva's argument, which is explicit;
+  do not conscript "Buddhism" as a bloc, and do not treat the Parfit/Buddhist convergence as settled.
+- *It cuts the other way on the prudential half.* If reductionism weakens special concern for one's
+  own future, it also weakens the premise the coordination derivation runs on — an agent who cares
+  less about his future bargaining position is less moved by uncertainty about it. So reductionism
+  strengthens the normative argument and weakens the prudential one. That is a real internal tension
+  and the book should print it rather than take the win quietly.
+
+**Registry effect:** new POS-26, "No-Self as Support," MODERATE. CANON §8 keeps the problem listed but
+no longer as unanswered.
+
+---
+
+## 10. Upgrade the population-ethics position from a bitten bullet to a defended one (POS-10)
+
+CANON currently defaults to a person-affecting restriction "with the costs acknowledged" — which is to
+say, it picks a bullet and bites it. That is better than silence and worse than it needs to be, since
+the position it picks has a developed defence in the literature it does not cite.
+
+**Adopt a *wide* person-affecting view with conditional reasons.** Narrow person-affecting views take
+the non-identity problem full in the face: an act cannot be worse if there is no one it is worse
+*for*, so a policy that leaves future people badly off but is a precondition of their existing seems
+to wrong no one. Wide views are built to avoid this — they compare outcomes across different possible
+populations rather than only within a fixed one, and so can hold that bringing about a very good life
+is better than bringing about a merely good one. Johann Frick's machinery of wide-scope conditional
+reasons (reasons to confer well-being conditional on a person's existing, plus a selection
+requirement) is the version to name.
+
+**Why this fits the framework specifically.** The book already reasons in exactly this shape
+elsewhere: CK-8's expected-valence doctrine, and §8(b)'s bounded uncertainty, both handle obligations
+that are conditional on a fact not yet settled. Conditional reasons are the same structure applied to
+existence. Adopting them is not an import; it is consistency.
+
+**Residual cost, named.** Arrhenius's impossibility results still apply: every population axiology
+must accept at least one strongly counterintuitive conclusion, and choosing a wide person-affecting
+view chooses which one. The book's job is to say which bullet it has taken and why that bullet is
+easier to live with than the repugnant conclusion — not to claim it escaped the theorem.
+
+**Registry effect:** POS-10 rewritten from "default, costs acknowledged" to the wide/conditional
+version, confidence held at PROVISIONAL, with the specific counterintuitive implication named.
+
+---
+
+## 11. The axiom is chosen — but not arbitrarily (POS-03)
+
+POS-03's vulnerability is that a rival axiom (perfectionist, preference-satisfaction, Nietzschean
+value-creation) "can be chosen with equal formal legitimacy," and that CANON offers no argument that
+the valence axiom is uniquely compelled. That remains true and should stay true; manufacturing a
+derivation here would be exactly the overreach the book criticises elsewhere.
+
+**But "not uniquely compelled" is not the same as "arbitrary," and the framework can now say why.**
+Section 1 of this pass established that the badness of suffering is met in acquaintance rather than
+inferred. That gives the valence axiom an evidential base its rivals do not have:
+
+- **Preference satisfaction** is inferred. Nobody encounters the badness of an unsatisfied preference;
+  you notice a preference and then reason that its frustration is bad.
+- **Perfectionist value** is judged. Excellence is assessed against a standard, and the standard is
+  argued for.
+- **Valence** is encountered. The awfulness of pain is not a conclusion you reach about your state; it
+  is a feature of the state you are having.
+
+So the choice among candidate axioms is not a coin-toss among equals. It is a choice in which exactly
+one candidate has first-person evidence behind it and the others have arguments. That is an
+asymmetry, and it is the right size of claim: **an evidential asymmetry, not a logical compulsion.**
+
+**Cost.** It leans entirely on POS-01, so an illusionist or an attitudinal theorist denies the base —
+in which case the framework degrades to Tier 2 or Tier 3 (POS-02) and the axiom becomes a choice
+among rivals again, which the degradation structure already anticipates. And an agent who simply
+prefers a different axiom is not thereby irrational. The asymmetry gives the valence axiom the better
+claim; it does not give it the only one.
+
+**Registry effect:** POS-03 keeps AXIOM status; the vulnerability field gains the asymmetry argument
+as a partial answer rather than a bare concession.
