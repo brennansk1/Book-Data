@@ -194,3 +194,18 @@ condition borrows) **and Ch. 17** (bounded aggregation as a chosen middle). **Wi
 placed than any consequentialism). **Korsgaard → Ch. 6** (the two regresses and where they stop).
 **Nietzsche and the comfort-mistaken-for-flourishing blindness → the Coda.** **Care ethics → Ch. 13**
 (scope limit conceded). **Confucian role ethics → Ch. 9** (standing is role-based).
+
+**CK-26 — The verdict battery, and two bullets now on the record (`canon/VERDICTS.md`).** The amended
+machinery was run against the standard cases. It handles trolley/transplant (the asymmetry falls out of
+the used-as-means constraint, with no doctrine of double effect imported), the murderer at the door,
+the utility monster (prioritarian weighting, no appeal to incommensurability), the repugnant conclusion,
+and promises to the dead (through the coordination layer, which is where the two-source structure earns
+its keep) — all with machinery already present for other reasons and no case-specific patches.
+TWO BULLETS, to be printed in the book and not smoothed: (1) the ticking-bomb rejection is CONTINGENT,
+resting on torture's empirical unreliability plus institutional capture risk, not on an exceptionless
+prohibition the architecture cannot support; (2) the experience-machine objection is EMPIRICAL, not
+moral — under a strict reading of POS-06 a machine genuinely delivering equivalent sustained valence
+would be permissible to enter, and our objection is the prediction that it would not deliver it. Both
+are consequences of deliberate commitments (procedural architecture; the single axiom). Also standing:
+Singer's drowning-child extension is resisted via POS-27, with the acknowledgement that this is the
+comfortable answer. Affects: Ch. 9, Ch. 10, Ch. 13, the Coda.
