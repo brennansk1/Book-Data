@@ -233,3 +233,33 @@ a derivation.
 Affects: Ch. 5 (the asymmetry belongs where the axiom is defended), Ch. 14 (flourishing), Ch. 15
 (Freud belongs in the suffering-and-death chapter), Ch. 17 (the floor/adaptive-preference connection),
 the Coda (the revised experience-machine verdict).
+
+**CK-28 — Two canon changes forced by the debate stress test (`canon/DEBATE-STRESS-TEST.md`).**
+
+(a) **STOP LEADING WITH "CHOSEN."** CANON §3 and POS-03 describe the axiom as chosen, not derived. On
+the page that is scrupulous; in adversarial exchange it is indistinguishable from "this is my
+preference," which is precisely the theistic grounding objection's thesis about secular ethics. The
+honesty is retained and the ORDER is fixed: lead with the acquaintance claim (the badness is
+constitutive of the state and is met, not elected — CK-9, CK-19); the choice is what comes after, and
+is the same choice a physicist makes in building on observation. POS-03 keeps AXIOM status and the
+not-uniquely-compelled concession. Affects: Ch. 5, Ch. 7, the Coda.
+
+(b) **CONFIDENCE IN A THEORY IS NOT CONFIDENCE IN A VERDICT — new standing distinction.** The Registry
+rates POS-01 MODERATE, which is confidence in a metaethical account. It has never been distinguished
+from confidence in first-order verdicts, and the two are not the same: "I am moderately confident the
+Holocaust was wrong" is both false and indefensible, while "I am moderately confident that phenomenal
+value realism is the right account of why it was wrong" is exactly right. Verdicts carry the
+confidence the evidence supports, which for atrocity cases is maximal; the calibration lives in the
+account of why. **Order of presentation is now canon: verdict first, theory second, never reversed.**
+This is a genuine gap the debate format exposed and it applies to the book as much as to a stage —
+a reader hitting POS-01's MODERATE rating without this distinction could reasonably conclude the
+framework is lukewarm about atrocities. Affects: POSITIONS.md preamble, Ch. 5, Ch. 7.
+
+Also recorded, not as canon changes but as prepared positions: the Euthyphro symmetry (everyone's
+justification chain terminates; ours terminates in something checkable by having a body, which is an
+epistemic asymmetry rather than a proof); the evolutionary-debunking reversal (it debunks the
+opponent's moral cognition equally); the borrowing-from-Christianity reply (acquaintance with one's
+own pain is not a loan — Śāntideva is the live example of the framework taking a non-theistic
+tradition's argument on its merits); and two symmetric concessions — we cannot get obligation from
+value for an agent who does not care, and neither can divine command, since "God will punish you" is a
+prudential reason with the shape of a threat.
